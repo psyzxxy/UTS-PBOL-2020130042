@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="650.0" prefWidth="1135.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="utspbol.FXML_level2Controller">
+   <children>
+      <TableView fx:id="tbvsoal2" layoutX="14.0" layoutY="14.0" prefHeight="287.0" prefWidth="378.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="C1" />
+          <TableColumn prefWidth="75.0" text="C2" />
+        </columns>
+      </TableView>
+      <TextField fx:id="txtisi" layoutX="567.0" layoutY="211.0" prefHeight="30.0" prefWidth="35.0" />
+      <TextField fx:id="txtisi2" layoutX="609.0" layoutY="211.0" prefHeight="30.0" prefWidth="35.0" />
+      <TextField fx:id="txtisi3" layoutX="652.0" layoutY="211.0" prefHeight="30.0" prefWidth="35.0" />
+      <TextField fx:id="txtisi4" layoutX="695.0" layoutY="211.0" prefHeight="30.0" prefWidth="35.0" />
+      <TextField fx:id="txtisi5" layoutX="734.0" layoutY="211.0" prefHeight="30.0" prefWidth="35.0" />
+      <TextField fx:id="txtisi21" layoutX="696.0" layoutY="248.0" prefHeight="30.0" prefWidth="35.0" />
+      <TextField fx:id="txtisi7" layoutX="695.0" layoutY="90.0" prefHeight="30.0" prefWidth="35.0" />
+      <TextField fx:id="txtisi19" layoutX="695.0" layoutY="128.0" prefHeight="30.0" prefWidth="35.0" />
+      <TextField fx:id="txtisi20" layoutX="695.0" layoutY="171.0" prefHeight="30.0" prefWidth="35.0" />
+      <TextField fx:id="txtisi18" layoutX="696.0" layoutY="50.0" prefHeight="30.0" prefWidth="35.0" />
+      <TextField fx:id="txtisi6" layoutX="652.0" layoutY="90.0" prefHeight="30.0" prefWidth="35.0" />
+      <TextField fx:id="txtisi8" layoutX="734.0" layoutY="90.0" prefHeight="30.0" prefWidth="35.0" />
+      <TextField fx:id="txtisi22" layoutX="813.0" layoutY="51.0" prefHeight="30.0" prefWidth="35.0" />
+      <TextField fx:id="txtisi23" layoutX="813.0" layoutY="128.0" prefHeight="30.0" prefWidth="35.0" />
+      <TextField fx:id="txtisi11" layoutX="851.0" layoutY="90.0" prefHeight="30.0" prefWidth="35.0" />
+      <TextField fx:id="txtisi12" layoutX="892.0" layoutY="90.0" prefHeight="30.0" prefWidth="35.0" />
+      <TextField fx:id="txtisi10" layoutX="813.0" layoutY="90.0" prefHeight="30.0" prefWidth="35.0" />
+      <TextField fx:id="txtisi9" layoutX="773.0" layoutY="90.0" prefHeight="30.0" prefWidth="35.0" />
+      <TextField fx:id="txtisi13" layoutX="814.0" layoutY="164.0" prefHeight="30.0" prefWidth="35.0" />
+      <TextField fx:id="txtisi25" layoutX="814.0" layoutY="239.0" prefHeight="30.0" prefWidth="35.0" />
+      <TextField fx:id="txtisi24" layoutX="814.0" layoutY="201.0" prefHeight="30.0" prefWidth="35.0" />
+      <TextField fx:id="txtisi17" layoutX="982.0" layoutY="162.0" prefHeight="30.0" prefWidth="35.0" />
+      <TextField fx:id="txtisi16" layoutX="939.0" layoutY="162.0" prefHeight="30.0" prefWidth="35.0" />
+      <TextField fx:id="txtisi15" layoutX="895.0" layoutY="162.0" prefHeight="30.0" prefWidth="35.0" />
+      <TextField fx:id="txtisi14" layoutX="855.0" layoutY="163.0" prefHeight="30.0" prefWidth="35.0" />
+      <TextField fx:id="txtmendatar" layoutX="39.0" layoutY="569.0" />
+      <TextField fx:id="txtmenurun" layoutX="340.0" layoutY="569.0" />
+      <Label layoutX="89.0" layoutY="539.0" text="Mendatar" />
+      <Label layoutX="396.0" layoutY="538.0" text="Menurun" />
+      <Label layoutX="555.0" layoutY="216.0" text="1" />
+      <Label layoutX="640.0" layoutY="95.0" text="2" />
+      <Label layoutX="800.0" layoutY="167.0" text="3" />
+      <Label layoutX="709.0" layoutY="29.0" text="4" />
+      <Label layoutX="826.0" layoutY="28.0" text="5" />
+      <Button fx:id="btncek" layoutX="243.0" layoutY="569.0" mnemonicParsing="false" onAction="#mendatarklik" text="cek" />
+      <Button fx:id="btncek2" layoutX="546.0" layoutY="569.0" mnemonicParsing="false" onAction="#menurunklik" text="cek" />
+      <Button fx:id="btnclear" layoutX="606.0" layoutY="569.0" mnemonicParsing="false" onAction="#clearklik" text="clear" />
+      <Label layoutX="89.0" layoutY="339.0" text="Mendatar" />
+      <Label layoutX="68.0" layoutY="360.0" text="1. Makanan khas Yogyakarta dari nangka muda" />
+      <Label layoutX="68.0" layoutY="381.0" text="2. Makanan khas padang dari daging" />
+      <Label layoutX="69.0" layoutY="402.0" text="3. Makanan lembek/berair dari beras/kacang" />
+      <Label layoutX="91.0" layoutY="423.0" text="Menurun" />
+      <Label layoutX="70.0" layoutY="444.0" text="4. Makanan khas palembang dari ikan" />
+      <Label layoutX="70.0" layoutY="465.0" text="5. Cabai yang ditumbuk lalu dihaluskan" />
+   </children>
+</AnchorPane>

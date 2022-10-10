@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="266.0" prefWidth="427.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="utspbol.FXMLDocumentController">
+   <children>
+      <Label layoutX="161.0" layoutY="26.0" text="Teka Teki Silang" />
+      <Label layoutX="44.0" layoutY="65.0" text="Untuk memulai game klik salah satu tombol berikut" />
+      <Button fx:id="btnlvl" layoutX="96.0" layoutY="110.0" mnemonicParsing="false" onAction="#lvlklik" text="Level 1" />
+      <Button fx:id="btnlvl2" layoutX="234.0" layoutY="110.0" mnemonicParsing="false" onAction="#lvl2klik" text="Level 2" />
+      <Button fx:id="btnkeluar" layoutX="353.0" layoutY="221.0" mnemonicParsing="false" onAction="#keluarklik" text="Keluar" />
+   </children>
+</AnchorPane>
